@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:Barlow;
+    color:azure;    
+}
+
+html, body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.btn a {
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;  
+}
+.btn-header{
+    background-color: rgba(255,255,255,0.1);
+    display: block;
+    margin:auto;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 0;
+    font-size: 1.0em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 10px;
+}
+.btn-play{
+    margin: 0 auto;
+    color: white;
+    border-radius: 50%;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 1.0em;
+    
+}
+
+.btn-header:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: rgba(133, 130, 130,0.4);
+}
+.nav li{
+    display: inline;
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom : 1px solid rgba(188, 188, 188, 0.4);
+}
+
+.main-header{
+    background-color: rgba(0,0,0,0.25);
+    background-image: url("images/header_image.jpg");
+    background-blend-mode: multiply;
+    
+}
+
+.band-name{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+    font-family: oswald;
+    color: rgba(253, 253, 253, 0.9);
+}
+.band-name-large{
+    font-size: 3.5em;
+}
+
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: oswald;
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: lighter;
+}
+.about-section-image{
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+   
+}
+.main-footer{
+    background-image: url(images/footer-1.png);
+    background-position:center;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 0.5;
+
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+.tour-row{
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    
+        border-bottom: none;
+    
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    font-weight: 500;
+    width: 11%;
+}
+.tour-title{
+    width: 74%;
+
+}
+.tour-btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer; 
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    max-width: 40%;
+}
+.tour-btn a{
+    text-decoration: none;
+}
+.tour-btn:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.pod-item{
+    margin: 30px;
+}
+.pod-item-title{
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.pod-item-image{
+    height: 300px;
+}
+.pod-item-details{
+    display: flex;
+    max-width: 300px;
+    align-items:center;
+    padding: 10px;
+}
+.pod-item-price{
+    flex-grow: 1;
+
+}
+.pod-item-btn{
+    flex-grow: 1;
+}
+
+.pod-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+.cart-header{
+    font-size: 1.4em;
+    font-family: Barlow;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin: 5px;
+    
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 30%;
+}
+.cart-months{
+    width: 42%;
+   
+}
+.cart-input{
+    width: 50px;
+    color: black;
+    margin-left: 20px;
+    background-color: rgba(243, 237, 237, 0.947);
+    font-size: 1.0em;
+    text-align: center;
+    
+}
+.cart-price{
+    width: 25%;
+    
+}
+.cart-row:last-child{
+    border-bottom: 1px solid white;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+.cart-total{
+    text-align: end;
+    max-width: 850px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-items{
+    max-width: 850px;
+}
+.cart-total-title{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 18px;;
+}
+.cart-btn{
+    background-color: rgb(128, 28, 28);
+
+}
